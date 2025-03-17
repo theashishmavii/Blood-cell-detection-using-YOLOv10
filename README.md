@@ -41,7 +41,22 @@ This project highlights the application of deep learning in healthcare and aims 
 
 ---
 
-📦 Blood-cell-detection-using-YOLOv10/ │ ├── 📂 model/ # Folder containing the saved YOLOv10 model weights ├── 📂 evaluation/ # Folder containing evaluation results │ ├── 📜 f1_score.png # Placeholder for F1 score image │ ├── 📜 pr_curve.png # Placeholder for PR curve image ├── 📂 dataset/ # Folder containing the BCCD dataset │ ├── 📂 images/ # Blood cell images for training and testing │ └── 📂 annotations/ # Label files in YOLO format ├── 📜 app.py # Main file for Gradio web app (if applicable) ├── 📜 inference.py # Code for running inference with the trained model ├── 📜 preprocessing.py # Image preprocessing and augmentation code ├── 📜 requirements.txt # List of dependencies to run the project ├── 📜 README.md # Project documentation (this file) └── 📜 report.pdf # Internship report (if applicable)
+## 📂 Folder Structure
+
+📦 **Blood Cell Detection using YOLOv10**  
+├── 📂 **models/**                   # Folder containing the saved YOLOv10 model 
+├── 📂 **weights/**                  # Folder containing the saved YOLOv10 model weights 
+├── 📂 **runs/detect/**              # Folder containing the results of model
+│   ├── 📂 **train**                 # cointaining the results like F!-score, PR curve, etc.
+│   ├── 📂 **train2**                # cointaing the jpg files of annotated images
+│   ├── 📂 **train3**                # cointaing the best results like train folder 
+├── 📂 **dataset**                   # Folder containing the dataset
+│   ├── 📂 **files**                 # cointaining the text files cointaing addresses for splitting into train, test and validation
+│   ├── 📂 **images**                # cointaing the jpg files
+├── 📜 **inference.py**              # Code for running inference with the trained model
+├── 📜 **preprocessing.py**          # Image preprocessing and augmentation code 
+└── 📜 **README.md**                 # Project documentation  
+
 
 
 
