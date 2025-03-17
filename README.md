@@ -41,21 +41,22 @@ This project highlights the application of deep learning in healthcare and aims 
 
 ---
 
-## 📂 Folder Structure
+## 📂 **Folder Structure**
 
 📦 **Blood Cell Detection using YOLOv10**  
-├── 📂 **models/**     # Folder containing the saved YOLOv10 model 
-├── 📂 **weights/**    # Folder containing the saved YOLOv10 model weights 
-├── 📂 **runs/detect/**   # Folder containing the results of model
-│   ├── 📂 **train**                 # cointaining the results like F!-score, PR curve, etc.
-│   ├── 📂 **train2**                # cointaing the jpg files of annotated images
-│   ├── 📂 **train3**                # cointaing the best results like train folder 
-├── 📂 **dataset**                   # Folder containing the dataset
-│   ├── 📂 **files**                 # cointaining the text files cointaing addresses for splitting into train, test and validation
-│   ├── 📂 **images**                # cointaing the jpg files
-├── 📜 **inference.py**              # Code for running inference with the trained model
-├── 📜 **preprocessing.py**          # Image preprocessing and augmentation code 
-└── 📜 **README.md**                 # Project documentation  
+├── 📂 **models/**                 # Folder containing the saved YOLOv10 model  
+├── 📂 **weights/**                # Folder containing the saved YOLOv10 model weights  
+├── 📂 **runs/detect/**            # Folder containing the results of the model  
+│   ├── 📂 **train**               # Containing the results like F1-score, PR curve, etc.  
+│   ├── 📂 **train2**              # Containing the jpg files of annotated images  
+│   ├── 📂 **train3**              # Containing the best results like train folder  
+├── 📂 **dataset/**                # Folder containing the dataset  
+│   ├── 📂 **files**               # Containing the text files with addresses for splitting into train, test, and validation  
+│   ├── 📂 **images**              # Containing the jpg files  
+├── 📜 **inference.py**            # Code for running inference with the trained model  
+├── 📜 **preprocessing.py**        # Image preprocessing and augmentation code  
+└── 📜 **README.md**               # Project documentation  
+
 
 ---
 
