@@ -41,18 +41,7 @@ This project highlights the application of deep learning in healthcare and aims 
 
 ---
 
-📦 Blood-cell-detection-using-YOLOv10/
-│
-├── 📂 model/                        # Folder containing the saved YOLOv10 model weights
-├── 📂 evaluation/                   # Folder containing evaluation results
-│   ├── 📜 f1_score.png              # Placeholder for F1 score image
-│   ├── 📜 pr_curve.png              # Placeholder for PR curve image
-├── 📂 dataset/                      # Folder containing the BCCD dataset
-│   ├── 📂 images/                   # Blood cell images for training and testing
-│   └── 📂 annotations/              # Label files in YOLO format
-├── 📜 inference.py                  # Code for running inference with the trained model
-├── 📜 preprocessing.py              # Image preprocessing and augmentation code
-└── 📜 README.md                     # Project documentation (this file)
+📦 Blood-cell-detection-using-YOLOv10/ │ ├── 📂 model/ # Folder containing the saved YOLOv10 model weights ├── 📂 evaluation/ # Folder containing evaluation results │ ├── 📜 f1_score.png # Placeholder for F1 score image │ ├── 📜 pr_curve.png # Placeholder for PR curve image ├── 📂 dataset/ # Folder containing the BCCD dataset │ ├── 📂 images/ # Blood cell images for training and testing │ └── 📂 annotations/ # Label files in YOLO format ├── 📜 app.py # Main file for Gradio web app (if applicable) ├── 📜 inference.py # Code for running inference with the trained model ├── 📜 preprocessing.py # Image preprocessing and augmentation code ├── 📜 requirements.txt # List of dependencies to run the project ├── 📜 README.md # Project documentation (this file) └── 📜 report.pdf # Internship report (if applicable)
 
 
 
