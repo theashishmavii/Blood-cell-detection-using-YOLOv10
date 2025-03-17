@@ -62,4 +62,31 @@ This project highlights the application of deep learning in healthcare and aims 
 
 ---
 
+## 📌 Results:
+
+![BloodImage_00007](https://github.com/user-attachments/assets/cacbf0eb-7d5c-4185-a51e-566e0b0b720b)
+![BloodImage_00323](https://github.com/user-attachments/assets/c9671864-4271-4b2b-a0f6-8b5d7fc261d1)
+![BloodImage_00161](https://github.com/user-attachments/assets/c17d87fe-74a9-41f3-9ed5-0477d5dfd756)
+
+---
+
+## 📌 Evalution Parameters Results:
+
+![confusion_matrix](https://github.com/user-attachments/assets/f5281459-348b-42a2-9546-a707dd9da5e0)
+![confusion_matrix_normalized](https://github.com/user-attachments/assets/1d86ceeb-8b64-451f-8e09-21cd1aec612f)
+![F1_curve](https://github.com/user-attachments/assets/b6b57d3e-b442-4d3a-9aaf-6286c0906826)
+![P_curve](https://github.com/user-attachments/assets/7dfe5af5-a02e-4ac7-818f-edfb240572f4)
+![PR_curve](https://github.com/user-attachments/assets/8b8bb262-3661-47a9-8b39-bd04b411c0b5)
+![R_curve](https://github.com/user-attachments/assets/c903218c-f3b4-447d-bccb-6194cea612ac)
+![results](https://github.com/user-attachments/assets/e1926c91-6fa3-4807-b41b-f771845649b6)
+![labels](https://github.com/user-attachments/assets/fa431fde-7218-4156-80b3-2152a7b136e1)
+![labels_correlogram](https://github.com/user-attachments/assets/1c89ce1f-c6ba-41c1-ad46-4c0e2bb37f8a)
+
+
+
+
+
+
+
+
 
