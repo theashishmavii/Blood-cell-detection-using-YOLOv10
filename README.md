@@ -17,6 +17,7 @@ This project highlights the application of deep learning in healthcare and aims 
 ## Technologies Used
 - **YOLOv10**: For real-time object detection and fine-tuning on the BCCD dataset.
 - **PyTorch**: Framework used for building, training, and fine-tuning the model.
+- **Ultralytics YOLOv10**: The YOLOv10 model implementation used in this project for training and inference. More info: [Ultralytics YOLOv10](https://github.com/ultralytics/yolov5).
 - **OpenCV**: Used for image processing and augmentations.
 - **NumPy & Pandas**: For data manipulation and processing.
 - **Matplotlib**: For visualizing model performance and evaluation metrics.
