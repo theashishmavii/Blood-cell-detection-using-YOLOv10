@@ -52,11 +52,11 @@ This project highlights the application of deep learning in healthcare and aims 
 │   ├── 📂 **train3**              # Containing the best results like train folder  
 ├── 📂 **dataset/**                # Folder containing the dataset  
 │   ├── 📂 **files**               # Containing the text files with addresses for splitting into train, test, and validation  
-│   ├── 📂 **images**              # Containing the jpg files 
-├── 📜 **main_collab_code.py**     # Main code by which models are trained and implimented on Google Collab
+│   ├── 📂 **images**              # Containing the jpg files  
+├── 📜 **main_collab_code.py**     # Main code by which models are trained and implemented on Google Colab  
 ├── 📜 **inference.py**            # Code for running inference with the trained model  
 ├── 📜 **preprocessing.py**        # Image preprocessing and augmentation code  
-├── 📜 **predict.py**              # for prediction on image
+├── 📜 **predict.py**              # For prediction on image  
 └── 📜 **README.md**               # Project documentation  
 
 
