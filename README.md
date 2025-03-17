@@ -1,20 +1,20 @@
-# Blood Cell Detection using YOLOv10
+# 🚑 **Blood Cell Detection using YOLOv10**
 
-## Project Overview
+## 📖 **Project Overview**
 This project aims to build an **Object Detection Model** to identify and classify different types of blood cells using the **YOLOv10** model. The model is trained on the **BCCD (Blood Cell Count Dataset)**, which includes images of various blood cells like red blood cells (RBCs), white blood cells (WBCs), and platelets.
 
 The goal of this project is to automate the detection of blood cells, which is crucial for medical applications like automated blood cell counting, disease detection, and more. Using YOLOv10, a state-of-the-art real-time object detection model, the project demonstrates how deep learning can be applied to healthcare tasks.
 
 ---
 
-## Motivation
+## 💡 **Motivation**
 Automating blood cell detection can significantly enhance the speed and accuracy of medical diagnoses. Manual blood cell counting is a labor-intensive and error-prone task. By leveraging computer vision techniques, we can build an efficient and automated solution that assists healthcare professionals in diagnosing diseases, evaluating blood health, and monitoring medical conditions.
 
 This project highlights the application of deep learning in healthcare and aims to contribute to the ongoing efforts in **medical automation**.
 
 ---
 
-## Technologies Used
+## ⚙️ **Technologies Used**
 - **YOLOv10**: For real-time object detection and fine-tuning on the BCCD dataset.
 - **PyTorch**: Framework used for building, training, and fine-tuning the model.
 - **Ultralytics YOLOv10**: The YOLOv10 model implementation used in this project for training and inference. More info: [Ultralytics YOLOv10](https://github.com/ultralytics/yolov5).
@@ -25,7 +25,7 @@ This project highlights the application of deep learning in healthcare and aims 
 
 ---
 
-## How It Works
+## 🚀 **How It Works**
 
 1. **Data Preprocessing**:
    - The dataset is preprocessed with augmentation techniques like **rotation**, **cropping**, and **scaling** to improve the model’s generalization and performance.
@@ -41,5 +41,18 @@ This project highlights the application of deep learning in healthcare and aims 
 
 ---
 
-## Repo Structure
-Blood-cell-detection-using-YOLOv10/ │ ├── app.py # Main file for Gradio web app (if applicable) ├── inference.py # Code for running inference with the trained model ├── preprocessing.py # Image preprocessing and augmentation code ├── model/ # Folder containing the saved YOLOv10 model weights ├── requirements.txt # List of dependencies to run the project ├── README.md # Project documentation (this file) ├── evaluation/ # Folder containing evaluation results │ ├── f1_score.png # Placeholder for F1 score image │ ├── pr_curve.png # Placeholder for PR curve image └── dataset/ # Folder containing the BCCD dataset ├── images/ # Blood cell images for training and testing └── annotations/ # Label files in YOLO format
+📦 Blood-cell-detection-using-YOLOv10/
+│
+├── 📂 model/                        # Folder containing the saved YOLOv10 model weights
+├── 📂 evaluation/                   # Folder containing evaluation results
+│   ├── 📜 f1_score.png              # Placeholder for F1 score image
+│   ├── 📜 pr_curve.png              # Placeholder for PR curve image
+├── 📂 dataset/                      # Folder containing the BCCD dataset
+│   ├── 📂 images/                   # Blood cell images for training and testing
+│   └── 📂 annotations/              # Label files in YOLO format
+├── 📜 inference.py                  # Code for running inference with the trained model
+├── 📜 preprocessing.py              # Image preprocessing and augmentation code
+└── 📜 README.md                     # Project documentation (this file)
+
+
+
