@@ -20,7 +20,6 @@ This project highlights the application of deep learning in healthcare and aims 
 - **OpenCV**: Used for image processing and augmentations.
 - **NumPy & Pandas**: For data manipulation and processing.
 - **Matplotlib**: For visualizing model performance and evaluation metrics.
-- **Gradio**: (If web app development is included) For building a simple, interactive web interface for testing the model.
 - **BCCD Dataset**: Blood Cell Count Dataset used for training the model.
 
 ---
