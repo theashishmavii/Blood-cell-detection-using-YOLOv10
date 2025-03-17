@@ -44,9 +44,9 @@ This project highlights the application of deep learning in healthcare and aims 
 ## 📂 Folder Structure
 
 📦 **Blood Cell Detection using YOLOv10**  
-├── 📂 **models/**                   # Folder containing the saved YOLOv10 model 
-├── 📂 **weights/**                  # Folder containing the saved YOLOv10 model weights 
-├── 📂 **runs/detect/**              # Folder containing the results of model
+├── 📂 **models/**     # Folder containing the saved YOLOv10 model 
+├── 📂 **weights/**    # Folder containing the saved YOLOv10 model weights 
+├── 📂 **runs/detect/**   # Folder containing the results of model
 │   ├── 📂 **train**                 # cointaining the results like F!-score, PR curve, etc.
 │   ├── 📂 **train2**                # cointaing the jpg files of annotated images
 │   ├── 📂 **train3**                # cointaing the best results like train folder 
